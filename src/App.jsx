@@ -128,8 +128,7 @@ class LightningOut extends React.Component {
     } 
 
     componentDidMount() {
-        appendScript("https://sdodemo-main-166ce2cf6b6-172-1762eaa676f.force.com/px/lightning/lightning.out.js");
-        //appendScript("./lib/lightningOutApp.js");
+        //appendScript("https://sdodemo-main-166ce2cf6b6-172-1762eaa676f.force.com/px/lightning/lightning.out.js");
         lightingOutApp();
     }
 
