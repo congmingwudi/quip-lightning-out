@@ -1,0 +1,19 @@
+{
+    "name": "quip-lightning-out",
+    "version": "0.0.1",
+    "description": "Quip Live App that embeds a Salesforce Lightning Out app",
+    "license": "UNLICENSED",
+    "scripts": {
+        "start": "NODE_ENV=development webpack-dev-server --https",
+        "build": "NODE_ENV=production webpack; create-quip-app pack ./app"
+    },
+    "author": "",
+    "devDependencies": {
+        "create-quip-app": "0.0.45",
+        "quip-apps-webpack-config": ">=0.0.29"
+    },
+    "dependencies": {
+        "react-script-tag": "^1.1.2",
+        "webpack": "^3.5.1"
+    }
+}

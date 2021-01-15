@@ -1,0 +1,29 @@
+{
+    "id": "XQBAjAYxbjK",
+    "manifest_version": 1,
+    "name": "Salesforce Auth Flow",
+    "version_name": "1.0",
+    "version_number": 1,
+    "sizing_mode": "fit_content",
+    "initial_height": 300,
+    "initial_width": 300,
+    "js_files": ["dist/app.js"],
+    "css_files": ["dist/app.css"],
+    "csp_sources": {
+        "frame_srcs": [
+            "https://sdo-demo-main-166ce2cf6b6-17-1762eaa676f.secure.force.com"
+        ],
+        "script_srcs": [
+            "https://sdodemo-main-166ce2cf6b6-172-1762eaa676f.force.com",
+            "https://sdo-demo-main-166ce2cf6b6-17-1762eaa676f.secure.force.com"
+
+        ],
+        "connect_srcs": [
+            "https://sdodemo-main-166ce2cf6b6-172-1762eaa676f.force.com",
+            "https://sdo-demo-main-166ce2cf6b6-17-1762eaa676f.secure.force.com"
+        ],
+        "font_srcs": [
+            "https://c1.sfdcstatic.com"
+        ]
+    }
+}
